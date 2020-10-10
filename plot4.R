@@ -20,7 +20,7 @@ coal_Combustion <- (combustion_Aspect & coal_Aspect)
 combustion_SCC <- SCC[coal_Combustion,]$SCC
 combustion_NEI <- NEI[NEI$SCC %in% combustion_SCC,]
 
-# Create and export a PNG file
+# Create and export the corresponding PNG file
 
 png("plot4.png")
 
