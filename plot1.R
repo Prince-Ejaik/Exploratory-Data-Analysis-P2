@@ -1,3 +1,5 @@
+# Question: Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
 # Core files (.rds files) were unzipped and placed in my working directory.
 
 # Load the required packages
@@ -28,3 +30,5 @@ main = "Total PM2.5 Emissions under review"
 )
 
 dev.off()
+
+# Answer: Plot1 graph clearly indicates that there has been a decline in total tons of PM2.5 emissions in the United States over the years under review.
