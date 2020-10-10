@@ -1,4 +1,5 @@
-# Question: Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question 
+# Question: Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? 
+# Use the base plotting system to make a plot answering this question 
 
 # Core files (.rds files) were unzipped and placed in my working directory.
 
@@ -31,4 +32,5 @@ main = "Total PM2.5 Emissions in Baltimore"
 
 dev.off()
 
-# Answer: Yes, as one can deduce from plot2, there is a noticeable decline from the year 1999 to the year 2008 in total PM2.5 emissions in Baltimore City; although, the period between 2002 and 2005 shows an upward trend. 
+# Answer: Yes, as one can deduce from plot2, there is a noticeable decline from the year 1999 to the year 2008 in total PM2.5 emissions in Baltimore City: 
+# Although, the period between 2002 and 2005 shows an upward trend. 
