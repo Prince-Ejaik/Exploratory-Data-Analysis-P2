@@ -28,8 +28,7 @@ vehicles_Baltimore_NEI <- vehicles_Baltimore_NEI
 levels(vehicles_Baltimore_NEI$fips)[levels(vehicles_Baltimore_NEI$fips)=="06037"] <- "Los Angeles"
 levels(vehicles_Baltimore_NEI$fips)[levels(vehicles_Baltimore_NEI$fips)=="24510"] <- "Baltimore City"
 
-
-# Create and export a PNG file
+# Create and export the corresponding PNG file
 
 png("plot6.png")
 
